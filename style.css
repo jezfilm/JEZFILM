@@ -1,0 +1,113 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 * \{\
+  margin: 0;\
+  padding: 0;\
+  box-sizing: border-box;\
+\}\
+\
+body \{\
+  font-family: 'Inter', sans-serif;\
+  background: #111;\
+  color: #f4f4f4;\
+\}\
+\
+.container \{\
+  max-width: 1200px;\
+  margin: 0 auto;\
+  padding: 2rem;\
+\}\
+\
+header \{\
+  display: flex;\
+  justify-content: space-between;\
+  align-items: center;\
+  padding: 2rem;\
+  position: sticky;\
+  top: 0;\
+  background: rgba(0, 0, 0, 0.8);\
+  backdrop-filter: blur(10px);\
+  z-index: 10;\
+\}\
+\
+nav ul \{\
+  display: flex;\
+  list-style: none;\
+  gap: 2rem;\
+\}\
+\
+nav a \{\
+  text-decoration: none;\
+  color: #f4f4f4;\
+  font-weight: 500;\
+  transition: color 0.3s;\
+\}\
+\
+nav a:hover \{\
+  color: #00FFA3;\
+\}\
+\
+#hero \{\
+  text-align: center;\
+  padding: 10rem 0;\
+  background: linear-gradient(135deg, #0f0f0f 40%, #1e1e1e 100%);\
+\}\
+\
+.btn \{\
+  padding: 1rem 2rem;\
+  background: #00FFA3;\
+  color: #111;\
+  text-decoration: none;\
+  font-weight: bold;\
+  border-radius: 10px;\
+  transition: 0.3s;\
+\}\
+\
+.btn:hover \{\
+  background: #00ff87;\
+\}\
+\
+.gallery \{\
+  display: grid;\
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\
+  gap: 2rem;\
+  margin-top: 3rem;\
+\}\
+\
+.item img, .item video \{\
+  width: 100%;\
+  border-radius: 10px;\
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);\
+  transition: transform 0.3s ease;\
+\}\
+\
+.item:hover img, .item:hover video \{\
+  transform: scale(1.05);\
+\}\
+\
+form \{\
+  display: grid;\
+  gap: 1rem;\
+\}\
+\
+input, textarea \{\
+  padding: 1rem;\
+  border: none;\
+  background: #222;\
+  color: #fff;\
+  border-radius: 8px;\
+\}\
+\
+button \{\
+  padding: 1rem;\
+  background: #00FFA3;\
+  border: none;\
+  cursor: pointer;\
+  font-weight: bold;\
+\}\
+}
